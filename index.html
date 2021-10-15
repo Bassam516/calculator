@@ -1,0 +1,80 @@
+﻿<!doctype HTML>
+<html>
+<head>
+    <title>calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <center>
+                <i class="fas fa-calculator fa-3x"></i>
+                <h3>Calculator</h3>
+            </center>
+            <input id="screen" type="text" value="" class="col" placeholder="0" readonly />
+            <i id="icon" class="fas fa-bars"></i>
+            <div class="row">
+                <div class="scientific col-md-6">
+                    <button data-value="func" value="pow2">x<sup>2</sup></button>
+                    <button data-value="func" value="pow3">x<sup>3</sup></button>
+                    <button data-value="var" value="powx">x<sup>y</sup></button>
+                    <button data-value="func" value="ex">e<sup>x</sup></button>
+                    <button data-value="func" value="root2"><sup>2</sup>√x</button>
+                    <button data-value="func" value="root3"><sup>3</sup>√x</button>
+                    <button data-value="func" value="1/x">1/x</button>
+                    <button data-value="func" value="ln">ln</button>
+                    <button data-value="func" value="sin">sin</button>
+                    <button data-value="func" value="cos">cos</button>
+                    <button data-value="func" value="tan">tan</button>
+                    <button data-value="val" value="e">e</button>
+                    <button data-value="func" value="sinh">sinh</button>
+                    <button data-value="func" value="cosh">cosh</button>
+                    <button data-value="func" value="tanh">tanh</button>
+                    <button data-value="val" value="pi">π</button>
+                    <button data-value="func" value="log">log</button>
+                    <button data-value="func" value="log10">log<sub>10</sub></button>
+                    <button data-value="func" value="log2">log<sub>2</sub></button>
+                    <button data-value="val" value="rand">Rand</button>
+                </div>
+                <div class="static col-md-5" id="btn">
+                    <input data-value="clear" type="button" value="AC" />
+                    <input id="BS" data-value="backspace" type="button" value="&#x232b;" />
+                    <input data-value="sign" type="button" value="%" />
+                    <input data-value="sign" type="button" value="/" />
+                    <input data-value="number" type="button" value="7" />
+                    <input data-value="number" type="button" value="8" />
+                    <input data-value="number" type="button" value="9" />
+                    <input data-value="sign" type="button" value="*" />
+                    <input data-value="number" type="button" value="4" />
+                    <input data-value="number" type="button" value="5" />
+                    <input data-value="number" type="button" value="6" />
+                    <input data-value="sign" type="button" value="-" />
+                    <input data-value="number" type="button" value="1" />
+                    <input data-value="number" type="button" value="2" />
+                    <input data-value="number" type="button" value="3" />
+                    <input data-value="sign" type="button" value="+" />
+                    <input data-value="number" type="button" value="0" />
+                    <input data-value="number" type="button" value="." />
+                    <input data-value="result" type="button" value="=" />
+                </div>
+
+            </div>
+            <div class="footer text-center">
+                <p>All rights are reserved &copy; BASSAM</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
